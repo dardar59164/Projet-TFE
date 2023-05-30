@@ -1,3 +1,14 @@
 #annee1998.page-wrap{
-    
+    background: url("./protruding-squares-orange-background.png");
+}
+#annee1998 .content{
+    position: relative;
+    width: 710px;
+    margin:0 auto;
+}
+#annee1998 .content h1{
+    text-align: center;
+}
+marquee img{
+    height: 60px;
 }

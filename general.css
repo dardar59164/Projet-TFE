@@ -8,6 +8,7 @@ html,body{
 }
 section.page-wrap{
     min-height: 100dvh;
+    position: relative;
 }
 #Accueil{
     display: flex;
