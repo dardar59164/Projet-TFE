@@ -1,0 +1,22 @@
+#annee1996{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+#annee1996 h1{
+    text-align: center;
+    font-family: fantasy;
+}
+#annee1996 table{
+    border-spacing: 0;
+}
+#annee1996 td{
+    vertical-align: top;
+    border-top: 2px dashed green;
+}
+#annee1996 #Left-navbar{
+    background: green;
+}
+
+#annee1996 #Main-content img{
+    width: 50%;
+}
