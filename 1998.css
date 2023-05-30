@@ -1,13 +1,19 @@
+#annee1998{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+}
 #annee1998.page-wrap{
-    background: url("./protruding-squares-orange-background.png");
+    background: url("./Backgrounds/starbackground.gif");
 }
 #annee1998 .content{
     position: relative;
     width: 710px;
     margin:0 auto;
+    padding-top: 20px;
 }
 #annee1998 .content h1{
     text-align: center;
+    margin-top: 0;
 }
 marquee img{
     height: 60px;
