@@ -7,7 +7,7 @@
 }
 #annee1998 .content{
     position: relative;
-    width: 710px;
+    width: 915px;
     margin:0 auto;
     padding-top: 20px;
 }
@@ -17,4 +17,11 @@
 }
 marquee img{
     height: 60px;
+}
+#annee1998 h2,#annee1998 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+#annee1998 #Intro{
+    font-style: italic;
 }
