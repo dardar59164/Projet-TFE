@@ -12,7 +12,7 @@
     padding-top: 20px;
     background: rgba(43, 43, 44, 0.479);
 }
-@media screen and (max-width:915px) {
+/* @media screen and (max-width:915px) {
     #annee1998 .content{
         width: 600px;
     }
@@ -21,7 +21,7 @@
     #annee1998 .content{
         width: 425px;
     }
-}
+} */
 #annee1998 .content h1{
     text-align: center;
     margin-top: 0;
