@@ -65,7 +65,7 @@ section.page-wrap{
 #Accueil h2{
     text-align: center;
 }
-footer>*{
-    float: right;
-    margin:0 20px 10px 0;
+footer{
+    text-align: right;
+    padding: 0 20px;
 }

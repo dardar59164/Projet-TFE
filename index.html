@@ -75,13 +75,13 @@
                 <dd>La première photo du Web des "Horribles Cernettes" est une image historique qui a joué un rôle important dans l'histoire de l'émergence de la culture en ligne.</dd>
                 <dd>Elle symbolise l'esprit ludique et l'atmosphère expérimentale qui ont caractérisé les débuts du Web, et elle est devenue un élément iconique de la culture geek et du patrimoine du CERN.</dd>
               </dl>
-              <footer>
-                <p style="margin-top:0;">&copy; Représentation 1990</p>
-              </footer>
             </td>
           </tr>
         </tbody>
       </table>
+      <footer>
+        <p style="margin-top:0;">&copy; Représentation 1990</p>
+      </footer>
       </section>
       <!-- ↓↓ Mise en page style années 96 - 1998 (CSS1) ↓↓ -->
       <section class="page-wrap" id="annee1996">
@@ -211,7 +211,7 @@
       <section class="page-wrap" id="annee1998">
         <div class="content">
           <header>
-            <h1 style="border:2px solid rgb(21, 112, 197)">Arrivée du CSS2 en 1998</h1>
+            <h1>Arrivée de CSS2 en 1998</h1>
             <marquee behavior="scroll" direction="right">
               <img src="./Banners/Animated_Microsoft_Internet_Explorer3152.gif" alt="IE.gif">
               <img src="./Banners/microsoft_frontpage.gif" alt="frontpage.gif">
@@ -221,37 +221,88 @@
             <img src="./Banners/borderunderconst.gif" alt="underconstruction.gif" style="width:100%">
           </header>
           <main>
-            <p id="intro">A partir de l'année 1997 l'accès à la création de sites internet a été simplifiée, permettant à un grand nombre d'utilisateurs de créer leurs propre sites personnalisés. Le manque de format de référence et l'arrivée des images gifs laisse libre cours à l'imagination de chacun. Ce qui peut parfois donner des sites farfelus...</p>
+            <p class="Intro">A partir de l'année 1997 l'accès à la création de sites internet a été simplifiée, permettant à un grand nombre d'utilisateurs de créer leurs propre sites personnalisés. Le manque de format de référence et l'arrivée des images gifs laisse libre cours à l'imagination de chacun. Ce qui peut parfois donner des sites farfelus...</p>
             <img src="./Banners/borderunderconst.gif" alt="underconstruction.gif" style="width:100%">
+            <p class="Intro">L'année 1998 a connu 6 évolutions majeures avec l'émergence de CSS2:</p>
+            <section>
+              <h2>Sélecteurs avancés</h2>
+              <p>CSS2 a introduit de nouveaux sélecteurs qui permettent de cibler plus précisément les éléments HTML. Par exemple, les sélecteurs de classe "." et d'identifiant "#" ont été ajoutés, ce qui permet de sélectionner des éléments en fonction de leur classe ou de leur ID.</p>
+            </section>
+            <section>
+              <h2>Positionnement avancé</h2>
+              <p>De nouvelles propriétés de positionnement ont vu le jour, offrant plus de contrôle sur la disposition des éléments. Par exemple, les propriétés position et z-index permettent de contrôler la position en utilisant le positionnement relatif, absolu ou fixe. De plus, les propriétés float et clear ont été introduites pour faciliter le positionnement des éléments dans un flux de contenu.</p>
+            </section>
+            <section>
+              <h2>Backgrounds et bordures</h2>
+              <p>CSS2 offre la possibilité de contrôler les arrière-plans (background) et les bordures (border). Cela permet de définir des images d'arrière-plan, des couleurs, des motifs, des bordures arrondies, des bordures en dégradé, etc.</p>
+            </section>
+            <section>
+              <h2>Tableaux avancés</h2>
+              <p>CSS2 a apporté des améliorations significatives dans la stylisation des tableaux HTML. Il a introduit de nouvelles propriétés pour contrôler l'espacement entre les cellules, les bordures, les en-têtes de colonne et de ligne, ainsi que d'autres aspects visuels des tableaux.</p>
+            </section>
+            <section>
+              <h2>Améliorations typographiques</h2>
+              <p>L'apparition de nouvelles propriétés pour contrôler la typographie des éléments HTML a rendu possible le fait de spécifier des polices de caractères spécifiques (font-family), de définir l'espacement entre les caractères (letter-spacing), l'espacement entre les lignes (line-height), et de gérer le césure des mots (hyphens).</p>
+            </section>
+            <section>
+              <h2>Média spécifique</h2>
+              <ul>
+                <li>
+                  <h3>@media</h3>
+                  <p>Cette règle permet de définir un ensemble de styles qui s'appliquent uniquement lorsque certaines conditions média sont remplies. Par exemple, vous pouvez définir des styles spécifiques pour l'écran, l'impression ou les dispositifs multimédias.</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+                <li>
+                  <h3>Propriété media</h3>
+                  <p>Cette propriété est utilisée pour spécifier le type de média auquel le style s'applique. Les valeurs courantes incluent <code>screen</code> (pour les écrans d'ordinateur), <code>print</code> (pour l'impression), <code>speech</code> (pour la synthèse vocale) et <code>all</code> (pour tous les médias).</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+                <li>
+                  <h3>@import</h3>
+                  <p>Cette règle permet d'importer des styles spécifiques à un média en utilisant une autre feuille de style. Par exemple, vous pouvez importer une feuille de style différente pour l'impression ou pour les dispositifs mobiles.</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+                <li>
+                  <h3>aural</h3>
+                  <p>Cette valeur de la propriété <code>media</code> est utilisée pour définir des styles spécifiques aux dispositifs de synthèse vocale, qui sont capables de lire le contenu d'une page Web à haute voix.</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+                <li>
+                  <h3>braille</h3>
+                  <p>Cette valeur de la propriété <code>media</code> est utilisée pour définir des styles spécifiques aux dispositifs de sortie en braille, qui transforment le contenu d'une page Web en caractères braille pour les utilisateurs aveugles ou malvoyants.</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+                <li>
+                  <h3>projection</h3>
+                  <p>Cette valeur de la propriété <code>media</code> est utilisée pour définir des styles spécifiques aux supports de projection, tels que les présentations projetées sur un écran.</p>
+                  <img src="./Banners/x_separator.gif" alt="separation.gif" style="width:100%">
+                </li>
+              </ul>
+              <p>Ces propriétés "Média spécifique" permettent de personnaliser la présentation d'un site Web en fonction du type de média utilisé pour afficher le contenu. Cela offre une plus grande flexibilité dans la conception et permet d'optimiser l'apparence et la lisibilité pour différents supports.</p>
+            </section>
             <table>
               <tbody>
                 <tr>
-                  <td colspan="2">
+                  <td>
                     <h2>Microsoft FrontPage 98</h2>
                     <p>Il s'agissait d'un outil de conception et de gestion de sites Web "NoCode" leur permettant de créer facilement des sites Web sans avoir à écrire de code HTML.</p>
                     <p>C'est un logiciel de type "WYSIWYG" (What You See Is What You Get), ce qui signifie que les utilisateurs pouvaient concevoir leur site Web en visualisant directement le résultat final à l'écran, sans avoir à manipuler directement le code HTML.</p>
                   </td>
                   <td>
-                    <img src="./Images/FrontPage98.jpg" alt="FrontPageIllustration.jpg">
+                    <img id="FrontPageImg" src="./Images/FrontPage98.jpg" alt="FrontPageIllustration.jpg">
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <img src="./Images/FrontPage98.jpg" alt="FrontPageIllustration.jpg">
-                  </td>
-                  <td>
-                    <h2>Microsoft FrontPage 98</h2>
-                    <p>Il s'agissait d'un outil de conception et de gestion de sites Web "NoCode" leur permettant de créer facilement des sites Web sans avoir à écrire de code HTML.</p>
-                    <p>C'est un logiciel de type "WYSIWYG" (What You See Is What You Get), ce qui signifie que les utilisateurs pouvaient concevoir leur site Web en visualisant directement le résultat final à l'écran, sans avoir à manipuler directement le code HTML.</p>
+                  <td colspan="2">
+                    <footer>
+                      <p>&copy; Représentation 1998</p>
+                    </footer>
                   </td>
                 </tr>
               </tbody>
           </table>
           </main>
         </div>
-        <footer>
-          <p>&copy; Représentation 1998</p>
-        </footer>
       </section>
 </body>
 </html>

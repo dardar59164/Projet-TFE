@@ -11,17 +11,33 @@
     margin:0 auto;
     padding-top: 20px;
 }
+@media screen and (max-width:915px) {
+    #annee1998 .content{
+        width: 600px;
+    }
+}
 #annee1998 .content h1{
     text-align: center;
     margin-top: 0;
+    border: groove 8px rgb(0, 183, 255);
 }
 marquee img{
     height: 60px;
 }
+#FrontPageImg{
+    height: 170px;
+}
 #annee1998 h2,#annee1998 p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
 }
-#annee1998 #Intro{
-    font-style: italic;
+#annee1998 h2{
+    font-size: 1.2em;
+    text-align: center;
+    background: rgba(216, 216, 238, 0.5);
+}
+#annee1998 .Intro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#annee1998 .content{
+    background: rgba(43, 43, 44, 0.384);
 }
