@@ -10,6 +10,7 @@
     width: 915px;
     margin:0 auto;
     padding-top: 20px;
+    background: rgba(43, 43, 44, 0.479);
 }
 @media screen and (max-width:915px) {
     #annee1998 .content{
@@ -37,7 +38,4 @@ marquee img{
 }
 #annee1998 .Intro{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-#annee1998 .content{
-    background: rgba(43, 43, 44, 0.384);
 }
