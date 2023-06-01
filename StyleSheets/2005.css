@@ -1,5 +1,5 @@
 #annee2005{
-    background: linear-gradient(to bottom, #036 146px,#2989d8 146px,#2989d8 150px,bisque 150px,bisque 100%);
+    background: linear-gradient(to bottom, #036 146px,#2989d8 146px,#2989d8 150px,#e1d4c0 150px,#e1d4c0 100%);
 }
 
 /* ↓↓ Header ↓↓ */
@@ -10,7 +10,7 @@
     font-family: Verdana, Arial;
     color:#fff;
 }
-#annee2005 header{
+#annee2005 header,#annee2005 footer{
     position: relative;
     height: 150px;
     background: #036;
@@ -19,11 +19,17 @@
     background-image: url("https://web.archive.org/web/20050509024338im_/http://www.blogger.com/img/bg_logo.gif");
     background-repeat: no-repeat;
 }
+#annee2005 footer{
+    border-top: 4px solid #69f;
+    border-bottom: none;
+    background-position: right;
+    color: #fff;
+}
 
 /* ↓↓ Main Content ↓↓ */
 #annee2005 main{
     padding: 20px;
-    background: bisque;
+    background: #e1d4c0;
 }
 
 /* ↓↓ Articles ↓↓ */
@@ -31,6 +37,8 @@
     border-radius: 0 20px 20px 20px;
     width: 100%;
     padding: 10px 20px;
+    -webkit-box-shadow:0px 0px 5px 1px #000000; 
+    box-shadow: 0px 0px 5px 1px #000000;
 }
 #HTML-Content{
     /* background: linear-gradient(#d86545,#d48872); */
@@ -80,4 +88,11 @@
 }
 #annee2005 #JS-Content h2{
     background:#e0cd2d;
+}
+#annee2005 .backToTop{
+    background:#baa68e;
+    padding: 8px 12px;
+    width: fit-content;
+    border-radius: 20px;
+    margin:0 auto;
 }
