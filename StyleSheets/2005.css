@@ -59,7 +59,7 @@
 #annee2005 button{
     border-radius: 8px 8px 0 0;
     border:none;
-    padding: 5px;
+    padding: 8px 12px;
     font-weight: bold;
     cursor: pointer;
 }
