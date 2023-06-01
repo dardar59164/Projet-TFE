@@ -72,3 +72,21 @@ footer{
     text-align: right;
     padding: 0 20px;
 }
+
+.centered{
+    margin: 0 auto;
+}
+.size-1100{
+    max-width: 1100px;
+}
+.size-1000{
+    max-width: 1000px;
+}
+.sideBorders{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.sideShadows{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 15px -1px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 15px -1px rgba(0,0,0,0);
+}

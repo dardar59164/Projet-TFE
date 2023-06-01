@@ -1,27 +1,75 @@
+#annee2005{
+    background: linear-gradient(to bottom, #036 146px,#2989d8 146px,#2989d8 150px,bisque 150px,bisque 100%);
+}
+
+/* ↓↓ Header ↓↓ */
+#annee2005 h1{
+    line-height: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Verdana, Arial;
+    color:#fff;
+}
+#annee2005 header{
+    position: relative;
+    height: 150px;
+    background: #036;
+    border-bottom: 4px solid #69f;
+    padding: 10px 20px;
+    background-image: url("https://web.archive.org/web/20050509024338im_/http://www.blogger.com/img/bg_logo.gif");
+    background-repeat: no-repeat;
+}
+#annee2005 header img{
+    height: 140px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+/* ↓↓ Main Content ↓↓ */
 #annee2005 main{
-    max-width: 1100px;
-    margin: 0 auto;
+    padding: 20px;
     background: bisque;
 }
 #annee2005 #Main-content{
     position: relative;
-    min-height: 100vh;
+    overflow: hidden;
 }
+/* ↓↓ Articles ↓↓ */
 #annee2005 #Main-content article{
     /* position: absolute; */
-    background: goldenrod;
+    border-radius: 0 20px 20px 20px;
     width: 100%;
+    min-height: 900px;
     padding: 10px 20px;
 }
+#HTML-Content{
+    /* background: linear-gradient(#d86545,#d48872); */
+    border: 2px solid #d86545;
+}
+#CSS-Content{
+    background: linear-gradient(#2da6e0,#76bbdb);
+}
+#JS-Content{
+    background: linear-gradient(#e0cd2d,#dbd06a);
+}
 
-/*Boutons*/
-/*
-  HTML: #d86545
-  JavaScript: #e0cd2d
-  CSS: #2da6e0
-*/
-
-/*Texte*/
-#annee2005 h1{
-    text-align: center;
+/* ↓↓ Boutons ↓↓ */
+#annee2005 button{
+    border-radius: 8px 8px 0 0;
+    border:none;
+    border-left: #baa68e 2px solid;
+    border-right: #baa68e 2px solid;
+    border-top: #baa68e 2px solid;
+    padding: 5px;
+    font-weight: bold;
+}
+#annee2005 button#HTML{
+    background: #d86545;
+}
+#annee2005 button#CSS{
+    background: #2da6e0;
+}
+#annee2005 button#JS{
+    background: #e0cd2d;
 }
