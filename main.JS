@@ -9,3 +9,4 @@ styles.forEach(element => {
     })
 });
 
+/* ↓↓ JavaScript Page 2000-2005 ↓↓ */

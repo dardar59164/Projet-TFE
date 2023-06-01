@@ -1,0 +1,27 @@
+#annee2005 main{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: bisque;
+}
+#annee2005 #Main-content{
+    position: relative;
+    min-height: 100vh;
+}
+#annee2005 #Main-content article{
+    /* position: absolute; */
+    background: goldenrod;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/*Boutons*/
+/*
+  HTML: #d86545
+  JavaScript: #e0cd2d
+  CSS: #2da6e0
+*/
+
+/*Texte*/
+#annee2005 h1{
+    text-align: center;
+}
