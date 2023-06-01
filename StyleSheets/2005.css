@@ -25,13 +25,9 @@
     padding: 20px;
     background: bisque;
 }
-#annee2005 #Main-content{
-    position: relative;
-    overflow: hidden;
-}
+
 /* ↓↓ Articles ↓↓ */
 #annee2005 #Main-content article{
-    /* position: absolute; */
     border-radius: 0 20px 20px 20px;
     width: 100%;
     padding: 10px 20px;
