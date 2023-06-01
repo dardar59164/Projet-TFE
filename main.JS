@@ -5,8 +5,16 @@ let documentStyle = document.querySelector('#changing')
 styles.forEach(element => {
     console.log(element)
     element.addEventListener('click', function(){
-        documentStyle.setAttribute("href", element.dataset.styling)
+        documentStyle.setAttribute("href", element.dataset.styling);
     })
 });
 
 /* ↓↓ JavaScript Page 2000-2005 ↓↓ */
+let articles2005 = document.querySelectorAll('#annee2005 article')
+function showArticle(articleID){
+    articles2005.forEach(e => {
+        e.style.display = 'none';
+    })
+    articles2005[articleID].style.display = 'block';
+}
+    

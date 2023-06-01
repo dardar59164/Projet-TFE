@@ -19,12 +19,6 @@
     background-image: url("https://web.archive.org/web/20050509024338im_/http://www.blogger.com/img/bg_logo.gif");
     background-repeat: no-repeat;
 }
-#annee2005 header img{
-    height: 140px;
-    position: absolute;
-    left: 0;
-    top:0;
-}
 
 /* ↓↓ Main Content ↓↓ */
 #annee2005 main{
@@ -40,7 +34,6 @@
     /* position: absolute; */
     border-radius: 0 20px 20px 20px;
     width: 100%;
-    min-height: 900px;
     padding: 10px 20px;
 }
 #HTML-Content{
@@ -48,21 +41,23 @@
     border: 2px solid #d86545;
 }
 #CSS-Content{
-    background: linear-gradient(#2da6e0,#76bbdb);
+    /* background: linear-gradient(#2da6e0,#76bbdb); */
+    border: 2px solid #2da6e0;
+    display: none;
 }
 #JS-Content{
-    background: linear-gradient(#e0cd2d,#dbd06a);
+    /* background: linear-gradient(#e0cd2d,#dbd06a); */
+    border: 2px solid #e0cd2d;
+    display: none;
 }
 
 /* ↓↓ Boutons ↓↓ */
 #annee2005 button{
     border-radius: 8px 8px 0 0;
     border:none;
-    border-left: #baa68e 2px solid;
-    border-right: #baa68e 2px solid;
-    border-top: #baa68e 2px solid;
     padding: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 #annee2005 button#HTML{
     background: #d86545;
@@ -72,4 +67,21 @@
 }
 #annee2005 button#JS{
     background: #e0cd2d;
+}
+
+/* ↓↓ Texte ↓↓ */
+#annee2005 h2{
+    display:inline-block;
+    padding:8px 12px;
+    border-radius: 20px;
+}
+
+#annee2005 #HTML-Content h2{
+    background: #d86545;
+}
+#annee2005 #CSS-Content h2{
+    background:#2da6e0;
+}
+#annee2005 #JS-Content h2{
+    background:#e0cd2d;
 }
