@@ -13,9 +13,13 @@
     vertical-align: top;
     border-top: 2px dashed green;
 }
-#annee1996 #Left-navbar{
+#annee1996 #Left-navbar,#annee1996 #Left-navbar img{
     background: green;
+    max-width: 20vw;
 }
-#annee1996 #Main-content img{
-    width: 50%;
+/*↓↓ Version Téléphone (aucun rapport avec l'époque mais trop d'impact pour l'expérience utilisateur sur téléphone ↓↓*/
+@media only screen and (max-width:425px){
+    #annee1996 #Left-navbar{
+        display:none;
+    }
 }

@@ -76,6 +76,9 @@ footer{
 .centered{
     margin: 0 auto;
 }
+.maxSize{
+    max-width: 1600px;
+}
 .size-1100{
     max-width: 1100px;
 }
@@ -89,4 +92,15 @@ footer{
 .sideShadows{
     -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 15px -1px rgba(0,0,0,0); 
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 15px -1px rgba(0,0,0,0);
+}
+
+/* ↓↓ Expérience utilisateur 1990 ↓↓ */
+@media only screen and (max-width:425px){
+    #annee1990 td{
+        max-width: 425px;
+    }
+    #annee1990 img{
+        max-width: 300px;
+        height: 200px;
+    }
 }
