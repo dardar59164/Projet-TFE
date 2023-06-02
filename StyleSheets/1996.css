@@ -22,4 +22,7 @@
     #annee1996 #Left-navbar{
         display:none;
     }
+    #annee1996 #Main-content{
+        max-width: 425px;
+    }
 }
