@@ -23,6 +23,10 @@ section.page-wrap{
 #Accueil h3{
     color: #6b7280;
 }
+#Accueil footer{
+    height: 48px;
+    background: #9ea2a565;
+}
 .grid-col-2{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -135,6 +139,15 @@ img.br-right20{
     }
     .grid-col-2:nth-child(even) .flex-col{
         grid-row: 1;
+    }
+    .grid-col-2 article{
+        padding: 0 20px;
+    }
+    #Accueil h1{
+        font-size: 48px;
+    }
+    #Accueil h3{
+        font-size: 20px;
     }
 }
 
