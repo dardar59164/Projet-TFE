@@ -159,6 +159,9 @@ img.br-right20{
         max-width: 300px;
         height: 200px;
     }
+    #annee1990 td{
+        max-width: 425px;
+    }
     #Accueil h1{
         margin-top:20px;
     }
