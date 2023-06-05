@@ -59,16 +59,9 @@
 /* ↓↓ Main Style ↓↓ */
 
 #actuel main{
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
   padding: 20px 40px;
-}
-#actuel main>*{
-  background: bisque;
-  border-radius: 20px;
-}
-.annee-recap{
-  grid-column: 1 / span 8;
 }
 
 .annee-recap{

@@ -25,7 +25,7 @@ gsap.to(".parallax",{
     start:"bottom center",
     end:"bottom top",
     scrub:1,
-    markers:true,
+    // markers:true,
   },
   y: 300,
   ease: "none",

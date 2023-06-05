@@ -187,8 +187,11 @@ img.br-right20{
     #Accueil article{
         padding:0 20px;
     }
+    .parallax-banner{
+        height: 25vh;
+    }
 }
 
 #banner1990.parallax-banner{
-    background-image: url("/Banners/1990.jpg");
+    background-image: url("/Banners/nonreunion_banner_1990.jpg");
 }

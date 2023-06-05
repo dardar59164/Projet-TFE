@@ -71,7 +71,7 @@
     font-weight: bold;
     cursor: pointer;
 }
-#annee2005 button:hover{
+#annee2005 button:hover, #annee2005:target{
     -webkit-box-shadow: inset 0px 0px 16px -4px #000000; 
     box-shadow: inset 0px 0px 16px -4px #000000;
 }
