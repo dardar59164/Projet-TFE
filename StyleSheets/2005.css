@@ -91,7 +91,9 @@
     padding:8px 12px;
     border-radius: 20px;
 }
-
+#annee2005 th{
+    text-align: center;
+}
 #annee2005 #HTML-Content h2{
     background: #d86545;
 }
