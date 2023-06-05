@@ -29,6 +29,5 @@ gsap.to(".parallax",{
   },
   y: 300,
   ease: "none",
-  backdropFilter: "blur(50px)",
   duration: 2
 });
