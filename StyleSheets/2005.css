@@ -1,3 +1,7 @@
+#banner2005.parallax-banner{
+    background-image:url("/Banners/double2005.jpg");
+}
+
 #annee2005{
     background: linear-gradient(to bottom, #036 146px,#2989d8 146px,#2989d8 150px,#e1d4c0 150px,#e1d4c0 100%);
 }

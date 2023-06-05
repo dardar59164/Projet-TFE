@@ -20,7 +20,7 @@ function showArticle(articleID){
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".parallax",{
   scrollTrigger: {
-    trigger:".logo-wrap",
+    trigger:"#Parallax-header",
     toggleActions:"play pause reverse pause",
     start:"bottom center",
     end:"bottom top",
@@ -29,5 +29,6 @@ gsap.to(".parallax",{
   },
   y: 300,
   ease: "none",
+  backdropFilter: "blur(50px)",
   duration: 2
 });
