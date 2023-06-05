@@ -5,6 +5,7 @@ html,body{
     margin:0;
     padding:0;
     max-width: 100vw;
+    scroll-behavior: smooth;
 }
 section.page-wrap{
     min-height: 100dvh;

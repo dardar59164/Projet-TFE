@@ -17,4 +17,17 @@ function showArticle(articleID){
     })
     articles2005[articleID].style.display = 'block';
 }
-    
+gsap.registerPlugin(ScrollTrigger);
+gsap.to(".parallax",{
+  scrollTrigger: {
+    trigger:".logo-wrap",
+    toggleActions:"play pause reverse pause",
+    start:"bottom center",
+    end:"bottom top",
+    scrub:1,
+    markers:true,
+  },
+  y: 300,
+  ease: "none",
+  duration: 2
+});

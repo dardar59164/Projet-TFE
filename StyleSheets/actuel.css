@@ -1,3 +1,75 @@
+/* ↓↓ Header Style ↓↓ */
+
+#actuel header{
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  background-image: url(
+    "https://images.unsplash.com/photo-1600695268275-1a6468700bd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+  );
+  background-attachment: fixed;
+  background-size: cover;
+}
+#actuel header::before{
+  content:'';
+  background: #1514148c;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+.logo-wrap{
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.logo-wrap img{
+  width: 72px;
+}
+.logo-wrap h1{
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0;
+  color: #fff;
+}
+#actuel header h3{
+  color: #55ACEE;
+  z-index: 2; 
+}
+#actuel nav{
+  background: #202020b4;
+  height: fit-content;
+  position: sticky;
+  top:0;
+  color:#fff;
+}
+#actuel nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  list-style: none;
+}
+#actuel nav li a{
+  text-decoration: none;
+  color: #55ACEE;
+  cursor: pointer;
+}
+/* ↓↓ Main Style ↓↓ */
+
+
+
+/* ↓↓ Footer Style ↓↓ */
+
 footer{
     text-align: left;
 }
@@ -48,13 +120,19 @@ footer ul {
   margin-bottom: 30px;
 }
 .footer-logo span{
+  margin-left: 5px;
     font-size: 48px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color:#fff;
 }
+@media only screen and (max-width:1200px) {
+  .footer-logo span{
+    font-size: 32px;
+  }
+}
 .footer-logo img {
-    max-width: 100px;
+    max-width: 60px;
 }
 .footer-logo a{
     text-decoration: none;
