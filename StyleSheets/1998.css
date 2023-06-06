@@ -11,21 +11,12 @@
 #annee1998 .content{
     position: relative;
     /* ↓↓ max-width n'existait pas en 1998 mais l'expérience utilisateur prime (soft responsive) ↓↓ */
-    max-width: 915px;
+    max-width: 100dvw;
     margin:0 auto;
     padding-top: 20px;
     background: rgba(43, 43, 44, 0.479);
 }
-/* @media screen and (max-width:915px) {
-    #annee1998 .content{
-        width: 600px;
-    }
-}
-@media screen and (max-width:600px) {
-    #annee1998 .content{
-        width: 425px;
-    }
-} */
+
 #annee1998 .content h1{
     text-align: center;
     margin-top: 0;

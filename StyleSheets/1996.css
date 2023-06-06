@@ -26,6 +26,6 @@
         display:none;
     }
     #annee1996 #Main-content{
-        max-width: 425px;
+        max-width: 100dvw;
     }
 }
