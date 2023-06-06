@@ -21,7 +21,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".parallax",{
   scrollTrigger: {
     trigger:"#Parallax-header",
-    toggleActions:"play pause reverse pause",
     start:"bottom center",
     end:"bottom top",
     scrub:1,
@@ -31,3 +30,4 @@ gsap.to(".parallax",{
   ease: "none",
   duration: 2
 });
+

@@ -11,6 +11,9 @@ section.page-wrap{
     min-height: 100dvh;
     position: relative;
 }
+footer p{
+    text-align: right;
+}
 td{
     max-width: 100dvw;
 }
