@@ -99,18 +99,33 @@
 .evolutions:nth-child(even) {
   background: #40414f;
 }
-#evo2006-2009{
-  grid-column: 2 / span 2;
-}
-#evo2010-2013{
-  grid-column: 1 / span 2;
-}
-#evo2019-2021{
-  grid-column: 2 / span 2;
-}
 .evolutions:nth-child(odd) {
   background: #444654;
 }
+#evo2005{
+  border-radius: 0 20px 0 0;
+  -webkit-box-shadow: 20px 0px 0px 0px #40414f; 
+  box-shadow: 20px 0px 0px 0px #40414f;
+}
+#evo2006-2009{
+  grid-column: 2 / span 2;
+  border-radius: 0 0 0 20px;
+  -webkit-box-shadow: -20px 0px 0px 0px #40414f; 
+  box-shadow: -20px 0px 0px 0px #40414f;
+}
+#evo2010-2013{
+  grid-column: 1 / span 2;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 20px 0px 0px 0px #444654; 
+  box-shadow: 20px 0px 0px 0px #444654;
+}
+#evo2019-2021{
+  grid-column: 2 / span 2;
+  border-radius: 20px 0 0 0;
+  -webkit-box-shadow: -20px 0px 0px 0px #40414f; 
+  box-shadow: -20px 0px 0px 0px #40414f;
+}
+
 /* ↓↓ Main Section Responsive ↓↓ */
 @media only screen and (max-width:900px) {
   #actuel main {
