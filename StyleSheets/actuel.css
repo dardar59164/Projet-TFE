@@ -82,16 +82,19 @@
 .side-borders::after {
   right: 0;
 }
-
-.main-evolution {
-  grid-column: 1 / span 3;
+.evolutions{
+  color: #fff;
 }
-
-.main-evolution:nth-child(even) {
+.evolutions h1{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.evolutions:nth-child(even) {
   background: #40414f;
 }
 
-.main-evolution:nth-child(odd) {
+.evolutions:nth-child(odd) {
   background: #444654;
 }
 /* ↓↓ Main Section Responsive ↓↓ */
