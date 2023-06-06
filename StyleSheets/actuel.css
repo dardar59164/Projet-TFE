@@ -82,7 +82,13 @@
 .side-borders::after {
   right: 0;
 }
+
+.htmlcolor h2{color:#d86545;}
+.csscolor h2{color:#2da6e0;}
+.jscolor h2{color:#e0cd2d;}
+
 .evolutions{
+  padding: 10px 20px;
   color: #fff;
 }
 .evolutions h1{
@@ -93,7 +99,15 @@
 .evolutions:nth-child(even) {
   background: #40414f;
 }
-
+#evo2006-2009{
+  grid-column: 2 / span 2;
+}
+#evo2010-2013{
+  grid-column: 1 / span 2;
+}
+#evo2019-2021{
+  grid-column: 2 / span 2;
+}
 .evolutions:nth-child(odd) {
   background: #444654;
 }
