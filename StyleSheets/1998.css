@@ -11,7 +11,7 @@
 #annee1998 .content{
     position: relative;
     /* ↓↓ max-width n'existait pas en 1998 mais l'expérience utilisateur prime (soft responsive) ↓↓ */
-    max-width: 100dvw;
+    max-width: 915px;
     margin:0 auto;
     padding-top: 20px;
     background: rgba(43, 43, 44, 0.479);
