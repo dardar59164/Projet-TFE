@@ -30,4 +30,3 @@ gsap.to(".parallax",{
   ease: "none",
   duration: 2
 });
-
